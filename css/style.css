@@ -11,6 +11,9 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
   }
+  html {
+    scroll-behavior: smooth;
+}
   a {
     color: #7E8BE8;
     text-decoration: none;
@@ -52,11 +55,6 @@
   .bg-dark {
     background: #7E8BE8;
     color: #fff;
-  }
-  
-  .bg-light {
-    background: #f4f4f4;
-    color: #7E8BE8;
   }
   .bg-primary {
     background: #f7c08a;
@@ -241,7 +239,8 @@
 footer {
   text-align: center;
   padding: 20px;
-  background: #444;
+  background: #D0CAE2;
+    font-size: 18px;
   color: #fff;
 }
 /* clear */
@@ -321,6 +320,43 @@ footer {
 #contact-info .box i {
   margin-bottom: 10px;
 }
+
+/* tooted */
+#tooted {
+  background-color: #E9DAF4;
+  color: #7E8BE8;
+  text-align: left;
+  height: 400px;
+  padding: 70px 20px 30px; height: 600px;
+}
+#features .box {
+  float: left;
+  width: fit-content;
+  padding: 50px;
+  text-align: center;
+}
+#features .box i {
+  margin-bottom: 10px;
+}
+
+/* tiim */
+#tiim {
+  background-color: #E1F2B9;
+  color: #7E8BE8;
+  text-align: left;
+  height: 400px;
+  padding: 70px 20px 30px; height: 600px;
+}
+#features .box {
+  float: left;
+  width: fit-content;
+  padding: 50px;
+  text-align: center;
+}
+#features .box i {
+  margin-bottom: 10px;
+}
+
 
 /* mobile */
 /* General Navbar Styles */
